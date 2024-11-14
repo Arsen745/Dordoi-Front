@@ -1,0 +1,28 @@
+nav {
+    border-bottom: 1px solid silver;
+}
+.buttons-croup {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 2px;
+}   
+
+.buttons-croup button {
+    background: none;
+    border: 1px solid transparent;
+    padding-bottom: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #00113350;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-bottom: 3px solid transparent;
+}
+.buttons-croup button.active,
+.buttons-croup button:hover {
+    border-bottom: 3px solid #4584FF;
+    color: #4584FF;
+}
