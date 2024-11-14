@@ -1,8 +1,11 @@
 import React from 'react'
+import Baner from '../../components/baner/Baner'
 
 const UserHomePage = () => {
   return (
-    <div>UserHomePage</div>
+    <div className='container'>
+      <Baner/>
+    </div>
   )
 }
 

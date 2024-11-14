@@ -1,0 +1,30 @@
+.baner-homepage {
+    margin-top: 30px;
+}
+
+.baner-homepage .ant-carousel .slick-next,
+.baner-homepage .ant-carousel .slick-prev {
+    color: white;
+
+}
+.baner-homepage .content-baner {
+    background-color: #212844;
+    height: 400px;
+    display: flex !important;
+    padding: 23px 70px;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+.baner-homepage .content-baner .right-content-baner img {
+    width: 300px;
+}
+.baner-homepage .content-baner .left-content-baner {
+    color: white;
+}
+.baner-homepage .content-baner .left-content-baner h1 {
+    font-size: 63px;
+    margin-bottom: 20px;
+}
+.baner-homepage .content-baner .left-content-baner p {
+    font-size: 32px;
+}

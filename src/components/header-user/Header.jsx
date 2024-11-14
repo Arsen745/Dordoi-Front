@@ -5,6 +5,7 @@ import { Select, Space } from 'antd';
 import search from '../../assets/svg/Seacrh.svg'
 import heart from '../../assets/svg/Heart.svg'
 import cart from '../../assets/svg/Cart.svg'
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -14,11 +15,15 @@ const handleChange = (value) => {
 };
 
 const Header = () => {
+
+  const navigate = useNavigate()
   return (
     <div className='header-container'>
       <div className="container content-header">
         <div className="logo">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="" onClick={() => {
+            navigate('/')
+          }}/>
         </div>
         <div className="seacrh">
           <div className="filter">
@@ -35,7 +40,9 @@ const Header = () => {
         </div>
         <div className="nav-header">
           <button><img src={heart} alt="" /><p>10</p></button>
-          <button><img src={cart} alt="" /><p>10</p></button>
+          <button><img src={cart} alt="" onClick={() => {
+            navigate('/cart')
+          }}/><p>10</p></button>
           <button className='button-ui'>Создать Магазин</button>
           <button className='button-ui'>Заказы</button>
         </div>
