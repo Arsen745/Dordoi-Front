@@ -18,7 +18,7 @@ const contentStyle = {
 const Baner = () => {
     return (
         <div className='baner-homepage'>
-            <Carousel arrows infinite={true} autoplay={false} style={{borderRadius: '16px'}}>
+            <Carousel arrows infinite={true} autoplay={true} style={{borderRadius: '16px'}}>
                 <div className='content-baner'>
                     <div className="left-content-baner">
                         <h1>Скидка на часы редми</h1>
