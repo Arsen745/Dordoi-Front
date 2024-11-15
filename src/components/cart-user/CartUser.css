@@ -1,0 +1,149 @@
+.cart-user {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.border {
+  max-width: 100%;
+  width: 500px;
+  border: 1px solid #4584FF;
+  padding: 20px;
+  position: relative;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.first-cart {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clean {
+  max-width: 150px;
+  width: auto;
+  height: auto;
+  margin-right: 20px;
+}
+
+.content-side {
+  flex: 1;
+  position: relative;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.content-side img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.information {
+  margin-bottom: 20px;
+}
+
+.information p {
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+}
+
+.information p:not(:first-child)::before,
+.specifications::before,
+.order-button::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.name-goods {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.brand {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.currency {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  gap: 148px;
+}
+
+.country {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.shop {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  gap: 70px;
+}
+
+.shop-name {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.specifications {
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  padding-top: 10px;
+
+}
+
+.specification {
+   color: #000000;
+  margin-bottom: 30px;
+
+}
+
+.more {
+  color: #827A7A;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.order-button {
+  background-color: #4584ff;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.order-button::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
