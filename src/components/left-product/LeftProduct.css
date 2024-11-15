@@ -1,0 +1,32 @@
+.left-product {
+    height: 81vh;
+    overflow-y: scroll;
+    padding-top: 34px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+}
+.left-product::-webkit-scrollbar {
+    width: 0;
+}
+.left-product h2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px;
+    cursor: pointer;
+    padding-left: 10px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+}
+.left-product h2:hover {
+    border-bottom: 1px solid #4584FF;
+    color: #4584FF;
+}
+
+.right {
+    overflow-y: scroll;
+}
+.right::-webkit-scrollbar {
+    width: 0;
+}
