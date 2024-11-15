@@ -30,7 +30,7 @@ const Card = () => {
                     <h2>9000 <span>KGZ</span></h2>
                 </div>
                 <div className="shop">
-                    <h2><span>магазин: </span>Dordoi Techno</h2>
+                    <h2><span>магазин: </span>Dordoiю Techno</h2>
                 </div>
                 <div className="button">
                     <button>Добавить Корзину</button>
