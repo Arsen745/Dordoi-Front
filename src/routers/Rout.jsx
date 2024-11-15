@@ -2,6 +2,7 @@ import LayoutUser from "../layout/LayoutUser";
 import AdminHomePage from "../pages/admin/AdminHomePage";
 import UserCartPage from "../pages/user/UserCartPage";
 import UserHomePage from "../pages/user/UserHomePage";
+import UserProductPage from "../pages/user/UserProductPage";
 
 const routes = [
     {
@@ -15,6 +16,10 @@ const routes = [
             {
                 path: '/cart',
                 element: <UserCartPage/>
+            },
+            {
+                path: '/product',
+                element: <UserProductPage/>
             }
         ]
     },
